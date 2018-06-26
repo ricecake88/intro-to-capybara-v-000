@@ -5,8 +5,12 @@
   <body>
     <h1>Welcome!</h1>
     
-    <form>
-      <input name="user_name">
+    <form action="/greet" method="POST">
+      <label for="user_name">Name:</label>
+      <p>
+        <input name="user_name" type="text" id="user_name" />
+        </p>
+      
       <input type="submit" name="Submit" value="Submit">
     </form>
   </body>
